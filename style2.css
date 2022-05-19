@@ -1,0 +1,61 @@
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    grid-auto-flow: dense;
+    
+    
+}
+.card{
+    
+    width: 230px;
+    border-radius: 20px !important;
+    cursor: zoom-in;
+    background-color: lightgray;
+    
+}
+.card:hover{
+    filter: opacity(0.9);
+        
+}
+.card_container2{
+    display: grid; 
+    grid-template-columns: repeat(auto-fill,auto);
+    cursor:pointer;
+}
+.logo{
+    width: 30px;
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+.form-control{
+    width: 700px !important;
+    border-radius: 50px !important;
+    background-color: rgba(211, 211, 211, 0.397) !important;
+    justify-content: center;   
+}
+.form-control:hover{
+    background-color: lightgray !important;
+}
+
+.form-control::placeholder{
+    background-image: url(https://cdn-icons.flaticon.com/png/512/2311/premium/2311526.png?token=exp=1652971305~hmac=bb12dac6f65905fd49820bbaf83ffa00);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+a{
+    text-decoration: none !important;
+    color: black !important;
+    text-align: center !important;
+}
+a:active { 
+    color: white !important;
+    border-radius: 50px;
+    width: 70px;
+    height:40px;
+    background-color: black ;
+}
